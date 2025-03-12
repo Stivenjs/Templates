@@ -10,7 +10,7 @@ applications:
           commands:
             - npm run build --workspace=Anvogue
       artifacts:
-        baseDirectory: apps/Anvogue/.next
+        baseDirectory: /Anvogue/.next
         files:
           - '**/*'
       cache:
@@ -28,10 +28,10 @@ applications:
           commands:
             - npm run build --workspace=Ninico
       artifacts:
-        baseDirectory: apps/Ninico/.next
+        baseDirectory: /Ninico/.next
         files:
           - '**/*'
       cache:
         paths:
           - node_modules/**/*
-    appRoot: apps/Ninico
+    appRoot: /Ninico
