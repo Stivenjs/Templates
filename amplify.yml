@@ -1,37 +1,34 @@
 version: 1
 applications:
-  - frontend:
-      buildPath: '/'  # Ejecutar desde la raíz del monorepo
+  - appRoot: apps/Ninico  # Carpeta de la plantilla
+    frontend:
       phases:
         preBuild:
           commands:
             - npm install
         build:
           commands:
-            - npm run build --workspace=Anvogue
+            - npm run build
       artifacts:
-        baseDirectory: apps/Anvogue/.next
+        baseDirectory: .next
         files:
           - '**/*'
       cache:
         paths:
           - node_modules/**/*
-    appRoot: apps/Anvogue
-
-  - frontend:
-      buildPath: '/'  # Ejecutar desde la raíz del monorepo
+  - appRoot: apps/Anvogue  # Otra plantilla en el monorepo
+    frontend:
       phases:
         preBuild:
           commands:
             - npm install
         build:
           commands:
-            - npm run build --workspace=Ninico
+            - npm run build
       artifacts:
-        baseDirectory: apps/Ninico/.next
+        baseDirectory: .next
         files:
           - '**/*'
       cache:
         paths:
           - node_modules/**/*
-    appRoot: apps/Ninico
