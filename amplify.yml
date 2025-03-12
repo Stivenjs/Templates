@@ -1,14 +1,14 @@
 version: 1
 applications:
-  - appRoot: apps/Ninico  # Carpeta de la plantilla
+  - appRoot: apps/Ninico
     frontend:
       phases:
         preBuild:
           commands:
-            - npm install
+            - git diff --quiet HEAD^ HEAD apps/Ninico || npm install
         build:
           commands:
-            - npm run build
+            - git diff --quiet HEAD^ HEAD apps/Ninico || npm run build
       artifacts:
         baseDirectory: .next
         files:
@@ -16,15 +16,16 @@ applications:
       cache:
         paths:
           - node_modules/**/*
-  - appRoot: apps/Anvogue  # Otra plantilla en el monorepo
+
+  - appRoot: apps/Anvogue
     frontend:
       phases:
         preBuild:
           commands:
-            - npm install
+            - git diff --quiet HEAD^ HEAD apps/Anvogue || npm install
         build:
           commands:
-            - npm run build
+            - git diff --quiet HEAD^ HEAD apps/Anvogue || npm run build
       artifacts:
         baseDirectory: .next
         files:
