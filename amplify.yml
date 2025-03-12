@@ -5,10 +5,11 @@ applications:
       phases:
         preBuild:
           commands:
-            - git diff --quiet HEAD^ HEAD apps/Ninico || npm install
+            - CHANGED=$(git diff --name-only HEAD^ HEAD | grep '^apps/Ninico/' | wc -l)
+            - if [ "$CHANGED" -gt 0 ]; then npm install; fi
         build:
           commands:
-            - git diff --quiet HEAD^ HEAD apps/Ninico || npm run build
+            - if [ "$CHANGED" -gt 0 ]; then npm run build; fi
       artifacts:
         baseDirectory: .next
         files:
@@ -22,10 +23,11 @@ applications:
       phases:
         preBuild:
           commands:
-            - git diff --quiet HEAD^ HEAD apps/Anvogue || npm install
+            - CHANGED=$(git diff --name-only HEAD^ HEAD | grep '^apps/Anvogue/' | wc -l)
+            - if [ "$CHANGED" -gt 0 ]; then npm install; fi
         build:
           commands:
-            - git diff --quiet HEAD^ HEAD apps/Anvogue || npm run build
+            - if [ "$CHANGED" -gt 0 ]; then npm run build; fi
       artifacts:
         baseDirectory: .next
         files:
