@@ -16,7 +16,6 @@ applications:
       cache:
         paths:
           - node_modules/**/*
-
   - appRoot: apps/Anvogue
     frontend:
       phases:
