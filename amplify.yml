@@ -5,10 +5,10 @@ applications:
       phases:
         preBuild:
           commands:
-            - git diff --quiet HEAD^ HEAD apps/Ninico || npm install
+            - npm install
         build:
           commands:
-            - git diff --quiet HEAD^ HEAD apps/Ninico || npm run build
+            - npm run build
       artifacts:
         baseDirectory: .next
         files:
@@ -22,10 +22,10 @@ applications:
       phases:
         preBuild:
           commands:
-            - git diff --quiet HEAD^ HEAD apps/Anvogue || npm install
+            - npm install
         build:
           commands:
-            - git diff --quiet HEAD^ HEAD apps/Anvogue || npm run build
+            - npm run build
       artifacts:
         baseDirectory: .next
         files:
