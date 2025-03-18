@@ -13,7 +13,7 @@ export default function Blog1() {
                                     <div className="col-md-12 col-12">
                                         <div className="blogheader mb-20 d-flex align-items-center justify-content-between">
                                             <div className="tpsection mb-20">
-                                                <h4 className="tpsection__title">Popular Products</h4>
+                                                <h4 className="tpsection__title">Productos populares</h4>
                                             </div>
                                             <div className="tpallblog mb-20">
                                                 <h4 className="blog-btn"><Link href="/blog-details">All Blog <i className="far fa-long-arrow-right" /></Link>

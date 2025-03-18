@@ -39,11 +39,11 @@ export default function Slider2() {
                                             <div className="col-xl-5 col-lg-6 col-md-6 d-flex align-self-center">
                                                 <div className="tpslidertwo__item">
                                                     <div className="tpslidertwo__content">
-                                                        <h4 className="tpslidertwo__sub-title">Winter</h4>
-                                                        <h3 className="tpslidertwo__title mb-10">Exclusive <br /> Winter Collection</h3>
-                                                        <p>New Modern Stylist Fashionable Women's Wear holder</p>
+                                                        <h4 className="tpslidertwo__sub-title">Solo en</h4>
+                                                        <h3 className="tpslidertwo__title mb-10">Invierno <br /> Colección de invierno</h3>
+                                                        <p>Soporte para ropa moderna, elegante y estilizada.</p>
                                                         <div className="tpslidertwo__slide-btn">
-                                                            <Link className="tp-btn banner-animation" href="/shop">Shop Now <i className="fal fa-long-arrow-right" />
+                                                            <Link className="tp-btn banner-animation" href="/shop">Comprar ahora <i className="fal fa-long-arrow-right" />
                                                             </Link>
                                                         </div>
                                                     </div>
@@ -68,11 +68,11 @@ export default function Slider2() {
                                             <div className="col-xl-5 col-lg-6 col-md-6 d-flex align-self-center">
                                                 <div className="tpslidertwo__item">
                                                     <div className="tpslidertwo__content">
-                                                        <h4 className="tpslidertwo__sub-title">Winter</h4>
-                                                        <h3 className="tpslidertwo__title mb-10">Exclusive <br /> Women's Fashion</h3>
-                                                        <p>New Modern Stylist Fashionable Women's Wear holder</p>
+                                                        <h4 className="tpslidertwo__sub-title">Solo en</h4>
+                                                        <h3 className="tpslidertwo__title mb-10">Invierno <br /> Moda femenina</h3>
+                                                        <p> Nuevo y moderno soporte para ropa femenina a la moda</p>
                                                         <div className="tpslidertwo__slide-btn">
-                                                            <Link className="tp-btn banner-animation" href="/shop">Shop Now <i className="fal fa-long-arrow-right" />
+                                                            <Link className="tp-btn banner-animation" href="/shop">Compra ahora <i className="fal fa-long-arrow-right" />
                                                             </Link>
                                                         </div>
                                                     </div>
@@ -97,11 +97,11 @@ export default function Slider2() {
                                             <div className="col-xl-5 col-lg-6 col-md-6 d-flex align-self-center">
                                                 <div className="tpslidertwo__item">
                                                     <div className="tpslidertwo__content">
-                                                        <h4 className="tpslidertwo__sub-title">Winter</h4>
-                                                        <h3 className="tpslidertwo__title mb-10">Exclusive <br /> Summer Collection</h3>
-                                                        <p>New Modern Stylist Fashionable Women's Wear holder</p>
+                                                        <h4 className="tpslidertwo__sub-title">Solo en</h4>
+                                                        <h3 className="tpslidertwo__title mb-10">Invierno <br /> Colección de verano</h3>
+                                                        <p>Soporte para ropa femenina moderna, elegante y a la moda</p>
                                                         <div className="tpslidertwo__slide-btn">
-                                                            <Link className="tp-btn banner-animation" href="/shop">Shop Now <i className="fal fa-long-arrow-right" />
+                                                            <Link className="tp-btn banner-animation" href="/shop">Compra ahora <i className="fal fa-long-arrow-right" />
                                                             </Link>
                                                         </div>
                                                     </div>

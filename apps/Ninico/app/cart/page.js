@@ -22,12 +22,12 @@ export default function Cart() {
                                         <table className="table">
                                             <thead>
                                                 <tr>
-                                                    <th className="product-thumbnail">Images</th>
-                                                    <th className="cart-product-name">Courses</th>
-                                                    <th className="product-price">Unit Price</th>
-                                                    <th className="product-quantity">Quantity</th>
+                                                    <th className="product-thumbnail">Imagen</th>
+                                                    <th className="cart-product-name">Clasificación</th>
+                                                    <th className="product-price">Precio unitario</th>
+                                                    <th className="product-quantity">Cantidad</th>
                                                     <th className="product-subtotal">Total</th>
-                                                    <th className="product-remove">Remove</th>
+                                                    <th className="product-remove">Remover</th>
                                                 </tr>
                                             </thead>
                                             <tbody>
@@ -40,11 +40,10 @@ export default function Cart() {
                                             <div className="coupon-all">
                                                 <div className="coupon">
                                                     <input id="coupon_code" className="input-text" name="coupon_code" placeholder="Coupon code" type="text" />
-                                                    <button className="tp-btn tp-color-btn banner-animation" name="apply_coupon" type="submit">Apply
-                                                        Coupon</button>
+                                                    <button className="tp-btn tp-color-btn banner-animation" name="apply_coupon" type="submit">Aplicar Cupón</button>
                                                 </div>
                                                 <div className="coupon2">
-                                                    <button className="tp-btn tp-color-btn banner-animation" name="update_cart" type="submit">Update cart</button>
+                                                    <button className="tp-btn tp-color-btn banner-animation" name="update_cart" type="submit">Actualizar carrito</button>
                                                 </div>
                                             </div>
                                         </div>
@@ -52,12 +51,12 @@ export default function Cart() {
                                     <div className="row justify-content-end">
                                         <div className="col-md-5 ">
                                             <div className="cart-page-total">
-                                                <h2>Cart totals</h2>
+                                                <h2>Total</h2>
                                                 <ul className="mb-20">
                                                     <li>Subtotal <span>${total.toFixed(2)}</span></li>
                                                     <li>Total <span>${total.toFixed(2)}</span></li>
                                                 </ul>
-                                                <Link href="/checkout" className="tp-btn tp-color-btn banner-animation">Proceed to Checkout</Link>
+                                                <Link href="/checkout" className="tp-btn tp-color-btn banner-animation">Proceder al pago</Link>
                                             </div>
                                         </div>
                                     </div>

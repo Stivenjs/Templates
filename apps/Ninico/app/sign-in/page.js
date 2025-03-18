@@ -5,7 +5,7 @@ export default function SignIn() {
 
     return (
         <>
-            <Layout headerStyle={3} footerStyle={1} breadcrumbTitle="Sign In">
+            <Layout headerStyle={3} footerStyle={1} breadcrumbTitle="Iniciar Sesión">
                 <section className="track-area pt-80 pb-40">
                     <div className="container">
                         <div className="row justify-content-center">
@@ -20,33 +20,33 @@ export default function SignIn() {
                                                 <img src="/assets/img/icon/lock.png" alt="" />
                                             </div>
                                             <div className="tptrack__item-content">
-                                                <h4 className="tptrack__item-title">Login Here</h4>
-                                                <p>Your personal data will be used to support your experience throughout this website, to manage access to your account.</p>
+                                                <h4 className="tptrack__item-title">Inicia sesión</h4>
+                                                <p>Tus datos personales se utilizarán para mejorar tu experiencia en este sitio web y para gestionar el acceso a tu cuenta.</p>
                                             </div>
                                         </div>
                                         <div className="tptrack__id mb-10">
                                             <form action="#">
                                                 <span><i className="fal fa-user" /></span>
-                                                <input type="email" placeholder="Username / email address" />
+                                                <input type="email" placeholder="Nombre de usuario / Correo electrónico" />
                                             </form>
                                         </div>
                                         <div className="tptrack__email mb-10">
                                             <form action="#">
                                                 <span><i className="fal fa-key" /></span>
-                                                <input type="text" placeholder="Password" />
+                                                <input type="text" placeholder="Contraseña" />
                                             </form>
                                         </div>
                                         <div className="tpsign__remember d-flex align-items-center justify-content-between mb-15">
                                             <div className="form-check">
                                                 <input className="form-check-input" type="checkbox" id="flexCheckDefault" />
-                                                <label className="form-check-label" htmlFor="flexCheckDefault">Remember me</label>
+                                                <label className="form-check-label" htmlFor="flexCheckDefault">Recuérdame en este dispositivo.</label>
                                             </div>
                                             <div className="tpsign__pass">
-                                                <Link href="#">Forget Password</Link>
+                                                <Link href="#">Olvidé la contraseña.</Link>
                                             </div>
                                         </div>
                                         <div className="tptrack__btn">
-                                            <button className="tptrack__submition">Login Now<i className="fal fa-long-arrow-right" /></button>
+                                            <button className="tptrack__submition">Iniciar Sesión<i className="fal fa-long-arrow-right" /></button>
                                         </div>
                                     </div>
                                 </div>
@@ -62,27 +62,27 @@ export default function SignIn() {
                                                 <img src="/assets/img/icon/sign-up.png" alt="" />
                                             </div>
                                             <div className="tptrack__item-content">
-                                                <h4 className="tptrack__item-title">Sign Up</h4>
-                                                <p>Your personal data will be used to support your experience throughout this website, to manage access to your account.</p>
+                                                <h4 className="tptrack__item-title">Regístrate</h4>
+                                                <p>Tus datos personales se utilizarán para mejorar tu experiencia en este sitio web y para gestionar el acceso a tu cuenta.</p>
                                             </div>
                                         </div>
                                         <div className="tptrack__id mb-10">
                                             <form action="#">
                                                 <span><i className="fal fa-envelope" /></span>
-                                                <input type="email" placeholder="Email address" />
+                                                <input type="email" placeholder="Correo Electrónico" />
                                             </form>
                                         </div>
                                         <div className="tptrack__email mb-10">
                                             <form action="#">
                                                 <span><i className="fal fa-key" /></span>
-                                                <input type="text" placeholder="Password" />
+                                                <input type="text" placeholder="Contraseña" />
                                             </form>
                                         </div>
                                         <div className="tpsign__account">
-                                            <Link href="#">Already Have Account?</Link>
+                                            <Link href="#">¿Ya tienes cuenta?</Link>
                                         </div>
                                         <div className="tptrack__btn">
-                                            <button className="tptrack__submition tpsign__reg">Register Now<i className="fal fa-long-arrow-right" /></button>
+                                            <button className="tptrack__submition tpsign__reg">Regístrate Ahora!<i className="fal fa-long-arrow-right" /></button>
                                         </div>
                                     </div>
                                 </div>

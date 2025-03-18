@@ -14,17 +14,17 @@ export default function Product1() {
                     <div className="row">
                         <div className="col-md-6 col-12">
                             <div className="tpsection mb-40">
-                                <h4 className="tpsection__title">Popular <span> Products <img src="/assets/img/icon/title-shape-01.jpg" alt="" /></span></h4>
+                                <h4 className="tpsection__title">Productos <span> Populares <img src="/assets/img/icon/title-shape-01.jpg" alt="" /></span></h4>
                             </div>
                         </div>
                         <div className="col-md-6 col-12">
                             <div className="tpnavbar">
                                 <nav>
                                     <div className="nav nav-tabs" id="nav-tab" role="tablist">
-                                        <button className={activeIndex == 1 ? "nav-link active" : "nav-link"} onClick={() => handleOnClick(1)}>All</button>
+                                        <button className={activeIndex == 1 ? "nav-link active" : "nav-link"} onClick={() => handleOnClick(1)}>Todo</button>
                                         <button className={activeIndex == 2 ? "nav-link active" : "nav-link"} onClick={() => handleOnClick(2)}>Popular</button>
-                                        <button className={activeIndex == 3 ? "nav-link active" : "nav-link"} onClick={() => handleOnClick(3)}>On Sale</button>
-                                        <button className={activeIndex == 4 ? "nav-link active" : "nav-link"} onClick={() => handleOnClick(4)}>Best Rated</button>
+                                        <button className={activeIndex == 3 ? "nav-link active" : "nav-link"} onClick={() => handleOnClick(3)}>En Venta</button>
+                                        <button className={activeIndex == 4 ? "nav-link active" : "nav-link"} onClick={() => handleOnClick(4)}>Mejores Calificados</button>
                                     </div>
                                 </nav>
                             </div>

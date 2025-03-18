@@ -21,35 +21,35 @@ export default function Footer1() {
                                 </div>
                                 <div className="col-lg-2 col-md-4 col-sm-6">
                                     <div className="footer-widget footer-col-2 ml-30 mb-40">
-                                        <h4 className="footer-widget__title mb-30">Information</h4>
+                                        <h4 className="footer-widget__title mb-30">Información</h4>
                                         <div className="footer-widget__links">
                                             <ul>
-                                                <li><Link href="#">Custom Service</Link></li>
+                                                <li><Link href="#">Servicio personalizado</Link></li>
                                                 <li><Link href="#">FAQs</Link></li>
-                                                <li><Link href="/track">Ordering Tracking</Link></li>
-                                                <li><Link href="/contact">Contacts</Link></li>
-                                                <li><Link href="#">Events</Link></li>
+                                                <li><Link href="/track">Seguimiento de pedidos</Link></li>
+                                                <li><Link href="/contact">Contactos</Link></li>
+                                                <li><Link href="#">Eventos</Link></li>
                                             </ul>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="col-lg-2 col-md-4 col-sm-6">
                                     <div className="footer-widget footer-col-3 mb-40">
-                                        <h4 className="footer-widget__title mb-30">My Account</h4>
+                                        <h4 className="footer-widget__title mb-30">Mi cuenta</h4>
                                         <div className="footer-widget__links">
                                             <ul>
-                                                <li><Link href="#">Delivery Information</Link></li>
-                                                <li><Link href="#">Privacy Policy</Link></li>
-                                                <li><Link href="#">Discount</Link></li>
-                                                <li><Link href="#">Custom Service</Link></li>
-                                                <li><Link href="#">Terms  Condition</Link></li>
+                                                <li><Link href="#">Información de pedido</Link></li>
+                                                <li><Link href="#">Politicas de privacidad</Link></li>
+                                                <li><Link href="#">Descuento</Link></li>
+                                                <li><Link href="#">Servicio personalizado</Link></li>
+                                                <li><Link href="#">Términos y condiciones</Link></li>
                                             </ul>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="col-lg-2 col-md-4 col-sm-6">
                                     <div className="footer-widget footer-col-4 mb-40">
-                                        <h4 className="footer-widget__title mb-30">Social Network</h4>
+                                        <h4 className="footer-widget__title mb-30">Redes Sociales</h4>
                                         <div className="footer-widget__links">
                                             <ul>
                                                 <li><Link href="#"><i className="fab fa-facebook-f" />Facebook</Link></li>
@@ -63,12 +63,20 @@ export default function Footer1() {
                                 </div>
                                 <div className="col-lg-3 col-md-4">
                                     <div className="footer-widget footer-col-5 mb-40">
-                                        <h4 className="footer-widget__title mb-30">Get Newsletter</h4>
-                                        <p>Get on the list and get 10% off your first order!</p>
+                                        <h4 className="footer-widget__title mb-30">Suscribirse al boletín</h4>
+                                        <p>¡Únete a la lista y obtén un 10% de descuento en tu primer pedido!</p>
                                         <div className="footer-widget__newsletter">
                                             <form action="#">
-                                                <input type="email" placeholder="Enter email address" />
-                                                <button className="footer-widget__fw-news-btn tpsecondary-btn">Subscribe Now<i className="fal fa-long-arrow-right" /></button>
+                                                <input type="email" placeholder="Ingresa tu correo electrónico" />
+                                                <button className="footer-widget__fw-news-btn tpsecondary-btn">Inscríbete aquí.
+
+
+
+
+
+
+
+<i className="fal fa-long-arrow-right" /></button>
                                             </form>
                                         </div>
                                     </div>
@@ -83,16 +91,16 @@ export default function Footer1() {
                                             <i className="far fa-phone" />
                                         </div>
                                         <div className="footer-cta__text">
-                                            <Link href="/tel:0123456">980. 029. 666. 99</Link>
-                                            <span>Working 8:00 - 22:00</span>
+                                            <Link href="/tel:0123456">300656565</Link>
+                                            <span>Horas de atención 8:00 - 22:00</span>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="col-xl-6 col-lg-8 col-md-8 col-sm-6">
                                     <div className="footer-cta__source">
                                         <div className="footer-cta__source-content">
-                                            <h4 className="footer-cta__source-title">Download App on Mobile</h4>
-                                            <p>15% discount on your first purchase</p>
+                                            <h4 className="footer-cta__source-title">Descarga la App en el celular.</h4>
+                                            <p>15 % de descuento en tu primera compra.</p>
                                         </div>
                                         <div className="footer-cta__source-thumb">
                                             <Link href="#"><img src="/assets/img/footer/f-google.jpg" alt="google" /></Link>

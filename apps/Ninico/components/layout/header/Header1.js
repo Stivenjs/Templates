@@ -19,8 +19,8 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isCart
                         <div className="row">
                             <div className="col-12">
                                 <div className="header-welcome-text text-start ">
-                                    <span>Welcome to our international shop! Enjoy free shipping on orders $100  up.</span>
-                                    <Link href="/shop">Shop Now <i className="fal fa-long-arrow-right" /> </Link>
+                                    <span>¡Bienvenido a nuestra tienda internacional! Disfruta del envío gratis en pedidos desde $100.</span>
+                                    <Link href="/shop"> Compra ahora <i className="fal fa-long-arrow-right" /> </Link>
                                 </div>
                             </div>
                         </div>
@@ -40,7 +40,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isCart
                                         <form action="#">
                                             <div className="search-info p-relative">
                                                 <button className="header-search-icon"><i className="fal fa-search" /></button>
-                                                <input type="text" placeholder="Search products..." />
+                                                <input type="text" placeholder="Buscar productos..." />
                                             </div>
                                         </form>
                                     </div>
@@ -49,19 +49,15 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isCart
                                             <ul>
                                                 <li>
                                                     <Link href="#">
-                                                        <img src="/assets/img/icon/lang-flag.png" alt="flag" />English
+                                                        <img src="/assets/img/icon/lang-flag.png" alt="flag" />Español
                                                         <span><i className="fal fa-angle-down" /></span>
                                                     </Link>
                                                     <ul className="header-meta__lang-submenu">
+
                                                         <li>
-                                                            <Link href="#">Arabic</Link>
+                                                            <Link href="#">English</Link>
                                                         </li>
-                                                        <li>
-                                                            <Link href="#">Spanish</Link>
-                                                        </li>
-                                                        <li>
-                                                            <Link href="#">Mandarin</Link>
-                                                        </li>
+
                                                     </ul>
                                                 </li>
                                             </ul>
@@ -96,32 +92,32 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isCart
                             <div className="row align-items-center">
                                 <div className="col-xl-2 col-lg-3">
                                     <div className="cat-menu__category p-relative">
-                                        <a className="tp-cat-toggle" onClick={handleToggle} role="button"><i className="fal fa-bars" />Categories</a>
+                                        <a className="tp-cat-toggle" onClick={handleToggle} role="button"><i className="fal fa-bars" />Categorias</a>
                                         <div className="category-menu category-menu-off" style={{ display: `${isToggled ? "block" : "none"}` }}>
                                             <ul className="cat-menu__list">
-                                                <li><Link href="/shop"><i className="fal fa-user" /> Candles</Link></li>
-                                                <li className="menu-item-has-children"><Link href="/shop"><i className="fal fa-flower-tulip" /> Handmade</Link>
+                                                <li><Link href="/shop"><i className="fal fa-user" />Inicio</Link></li>
+                                                <li className="menu-item-has-children"><Link href="/shop"><i className="fal fa-flower-tulip" /> Artesanías</Link>
                                                     <ul className="submenu">
-                                                        <li><Link href="/shop-2">Chair</Link></li>
-                                                        <li><Link href="/shop-2">Table</Link></li>
-                                                        <li><Link href="/shop">Wooden</Link></li>
-                                                        <li><Link href="/shop">furniture</Link></li>
-                                                        <li><Link href="/shop">Clock</Link></li>
-                                                        <li><Link href="/shop">Gifts</Link></li>
-                                                        <li><Link href="/shop">Crafts</Link></li>
+                                                        <li><Link href="/shop-2">Sillas</Link></li>
+                                                        <li><Link href="/shop-2">Mesas</Link></li>
+                                                        <li><Link href="/shop">Madera</Link></li>
+                                                        <li><Link href="/shop">Muebles</Link></li>
+                                                        <li><Link href="/shop">Relojes</Link></li>
+                                                        <li><Link href="/shop">Regalos</Link></li>
+                                                        <li><Link href="/shop">Manualidades</Link></li>
                                                     </ul>
                                                 </li>
-                                                <li><Link href="/shop"><i className="fal fa-shoe-prints" /> Gift Sets</Link></li>
-                                                <li><Link href="/shop"><i className="fal fa-smile" /> Plastic Gifts</Link></li>
-                                                <li><Link href="/shop"><i className="fal fa-futbol" /> Handy Cream</Link></li>
-                                                <li><Link href="/shop"><i className="fal fa-crown" /> Cosmetics</Link></li>
-                                                <li><Link href="/shop"><i className="fal fa-gift" /> Silk Accessories</Link></li>
+                                                <li><Link href="/shop"><i className="fal fa-shoe-prints" /> Regalos</Link></li>
+                                                <li><Link href="/shop"><i className="fal fa-smile" /> Regalos plasticos</Link></li>
+                                                <li><Link href="/shop"><i className="fal fa-futbol" /> Cosas practicas</Link></li>
+                                                <li><Link href="/shop"><i className="fal fa-crown" /> Cosméticos</Link></li>
+                                                <li><Link href="/shop"><i className="fal fa-gift" /> Pequeños accesorios</Link></li>
                                             </ul>
                                             <div className="daily-offer">
                                                 <ul>
-                                                    <li><Link href="/shop">Value of the Day</Link></li>
-                                                    <li><Link href="/shop">Top 100 Offers</Link></li>
-                                                    <li><Link href="/shop">New Arrivals</Link></li>
+                                                    <li><Link href="/shop">Oferta del dia</Link></li>
+                                                    <li><Link href="/shop">100 Mejores ofertas</Link></li>
+                                                    <li><Link href="/shop">Nuevos productos</Link></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -132,58 +128,58 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isCart
                                         <nav id="mobile-menu">
                                             <ul>
                                                 <li className="has-dropdown">
-                                                    <Link href="/">Home</Link>
+                                                    <Link href="/">Inicio</Link>
                                                     <ul className="submenu">
-                                                        <li><Link href="/">Wooden Home</Link></li>
-                                                        <li><Link href="/index-2">Fashion Home</Link></li>
-                                                        <li><Link href="/index-3">Furniture Home</Link></li>
-                                                        <li><Link href="/index-4">Cosmetics Home</Link></li>
-                                                        <li><Link href="/index-5">Food Grocery</Link></li>
+                                                        <li><Link href="/">Decoraciones en madera</Link></li>
+                                                        <li><Link href="/index-2">Accesorios lujosos</Link></li>
+                                                        <li><Link href="/index-3">Muebles para el hogar</Link></li>
+                                                        <li><Link href="/index-4">Cosmeticos el hogar</Link></li>
+                                                        <li><Link href="/index-5">Para comidas</Link></li>
                                                     </ul>
                                                 </li>
                                                 <li className="has-dropdown">
-                                                    <Link href="/shop">Shop</Link>
+                                                    <Link href="/shop">Tienda</Link>
                                                     <ul className="submenu">
-                                                        <li><Link href="/shop">Shop</Link></li>
-                                                        <li><Link href="/shop-2">Shop 2</Link></li>
-                                                        <li><Link href="/shop-details">Shop Details </Link></li>
-                                                        <li><Link href="/shop-details-2">Shop Details 2</Link></li>
-                                                        <li><Link href="/shop-location">Shop Location</Link></li>
-                                                        <li><Link href="/cart">Cart</Link></li>
-                                                        <li><Link href="/sign-in">Sign In</Link></li>
-                                                        <li><Link href="/checkout">Checkout</Link></li>
-                                                        <li><Link href="/wishlist">Wishlist</Link></li>
-                                                        <li><Link href="/track">Product Track</Link></li>
+                                                        <li><Link href="/shop">Tienda</Link></li>
+                                                        <li><Link href="/shop-2">Tienda 2</Link></li>
+                                                        <li><Link href="/shop-details">Detalles de tienda</Link></li>
+                                                        <li><Link href="/shop-details-2">Detalles de tienda 2</Link></li>
+                                                        <li><Link href="/shop-location">Ubicacion de la tienda</Link></li>
+                                                        <li><Link href="/cart">Carrito</Link></li>
+                                                        <li><Link href="/sign-in">Inicia Sesión</Link></li>
+                                                        <li><Link href="/checkout">Finalizar compra</Link></li>
+                                                        <li><Link href="/wishlist">Lista de deseos</Link></li>
+                                                        <li><Link href="/track">Seguimiento de producto</Link></li>
                                                     </ul>
                                                 </li>
                                                 <li className="has-dropdown has-megamenu">
-                                                    <Link href="/about">Pages</Link>
+                                                    <Link href="/about">Pagina</Link>
                                                     <ul className="submenu mega-menu">
                                                         <li>
-                                                            <a className="mega-menu-title">Page layout</a>
+                                                            <a className="mega-menu-title">Diseño de Página</a>
                                                             <ul>
-                                                                <li><Link href="/shop">Shop filters v1</Link></li>
-                                                                <li><Link href="/shop-2">Shop filters v2</Link></li>
-                                                                <li><Link href="/shop-details">Shop sidebar</Link></li>
-                                                                <li><Link href="/shop-details-2">Shop Right sidebar</Link></li>
-                                                                <li><Link href="/shop-location">Shop List view</Link></li>
+                                                                <li><Link href="/shop">Filtros de tienda v1</Link></li>
+                                                                <li><Link href="/shop-2">Filtros de tienda v2</Link></li>
+                                                                <li><Link href="/shop-details">Barra lateral de la tienda</Link></li>
+                                                                <li><Link href="/shop-details-2">Barra lateral derecha</Link></li>
+                                                                <li><Link href="/shop-location">Lista de visualizaciones de la tienda</Link></li>
                                                             </ul>
                                                         </li>
                                                         <li>
-                                                            <a className="mega-menu-title">Page layout</a>
+                                                            <a className="mega-menu-title">Diseño de Página</a>
                                                             <ul>
-                                                                <li><Link href="/about">About</Link></li>
-                                                                <li><Link href="/cart">Cart</Link></li>
-                                                                <li><Link href="/checkout">Checkout</Link></li>
-                                                                <li><Link href="/sign-in">Sign In</Link></li>
-                                                                <li><Link href="/sign-in">Log In</Link></li>
+                                                                <li><Link href="/about">Acerca de</Link></li>
+                                                                <li><Link href="/cart">Carrito</Link></li>
+                                                                <li><Link href="/checkout">Finalizar compra</Link></li>
+                                                                <li><Link href="/sign-in">Regístrate</Link></li>
+                                                                <li><Link href="/sign-in">Inicia Sesión</Link></li>
                                                             </ul>
                                                         </li>
                                                         <li>
-                                                            <a className="mega-menu-title">Page type</a>
+                                                            <a className="mega-menu-title">Tipo de Pagina</a>
                                                             <ul>
-                                                                <li><Link href="/track">Product Track</Link></li>
-                                                                <li><Link href="/wishlist">Wishlist</Link></li>
+                                                                <li><Link href="/track">Seguimiento del producto</Link></li>
+                                                                <li><Link href="/wishlist">Lista de Deseos</Link></li>
                                                                 <li><Link href="/not-found">404 / Error</Link></li>
                                                                 <li><Link href="/coming-soon">Coming Soon</Link></li>
                                                             </ul>
@@ -194,10 +190,10 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isCart
                                                     <Link href="/blog">Blog</Link>
                                                     <ul className="submenu">
                                                         <li><Link href="/blog">Blog</Link></li>
-                                                        <li><Link href="/blog-details">Blog Details</Link></li>
+                                                        <li><Link href="/blog-details">Detalles del blog</Link></li>
                                                     </ul>
                                                 </li>
-                                                <li><Link href="/contact">Contact</Link></li>
+                                                <li><Link href="/contact">Contacto</Link></li>
                                             </ul>
                                         </nav>
                                     </div>
@@ -211,7 +207,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isCart
                                                         <i className="fal fa-phone" />
                                                     </div>
                                                     <div className="menu-contact__info">
-                                                        <Link href="/tel:0123456">908. 408. 501. 89</Link>
+                                                        <Link href="/tel:0123456">300656565</Link>
                                                     </div>
                                                 </div>
                                             </li>
@@ -221,7 +217,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isCart
                                                         <i className="fal fa-map-marker-alt" />
                                                     </div>
                                                     <div className="menu-contact__info">
-                                                        <Link href="/shop-location">Find Store</Link>
+                                                        <Link href="/shop-location">Encuentra la tienda</Link>
                                                     </div>
                                                 </div>
                                             </li>

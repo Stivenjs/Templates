@@ -146,7 +146,7 @@ export default function ShopDetails() {
                                             <p>SKU:</p><span>BO1D0MX8SJ</span>
                                         </div>
                                         <div className="tpproduct-details__information tpproduct-details__categories">
-                                            <p>Categories:</p>
+                                            <p>Categorias:</p>
                                             <span><Link href="#">T-Shirts,</Link></span>
                                             <span><Link href="#">Tops,</Link></span>
                                             <span><Link href="#">Womens</Link></span>
