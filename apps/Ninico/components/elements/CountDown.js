@@ -39,16 +39,16 @@ const Countdown = (endDateTime) => {
     return (
         <>
             <span className="cdown days"> <span className="time-count">{timeParts.days}</span>
-                <p>Days</p>
+                <p>Días</p>
             </span>
             <span className="cdown hour"> <span className="time-count">{timeParts.hours}</span>
-                <p>Hour</p>
+                <p>Horas</p>
             </span>
             <span className="cdown minutes"> <span className="time-count">{timeParts.minutes}</span>
-                <p>Minute</p>
+                <p>Minutos</p>
             </span>
             <span className="cdown second"> <span className="time-count">{timeParts.seconds}</span>
-                <p>Second</p>
+                <p>Segundos</p>
             </span>
 
 

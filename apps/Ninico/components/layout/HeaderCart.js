@@ -24,7 +24,7 @@ export default function HeaderCart({ isCartSidebar, handleCartSidebar }) {
             <div className={`tpcartinfo tp-cart-info-area p-relative ${isCartSidebar ? "tp-sidebar-opened" : ""}`}>
                 <button className="tpcart__close" onClick={handleCartSidebar}><i className="fal fa-times" /></button>
                 <div className="tpcart">
-                    <h4 className="tpcart__title">Your Cart</h4>
+                    <h4 className="tpcart__title">Tu carrito</h4>
                     <div className="tpcart__product">
                         <div className="tpcart__product-list">
                             <ul>
@@ -56,13 +56,13 @@ export default function HeaderCart({ isCartSidebar, handleCartSidebar }) {
                                 <span className="heilight-price"> ${total.toFixed(2)}</span>
                             </div>
                             <div className="tpcart__checkout-btn">
-                                <Link className="tpcart-btn mb-10" href="/cart">View Cart</Link>
-                                <Link className="tpcheck-btn" href="/checkout">Checkout</Link>
+                                <Link className="tpcart-btn mb-10" href="/cart">Ver Carrito</Link>
+                                <Link className="tpcheck-btn" href="/checkout">Verificar</Link>
                             </div>
                         </div>
                     </div>
                     <div className="tpcart__free-shipping text-center">
-                        <span>Free shipping for orders <b>under 10km</b></span>
+                        <span>Envio gratuito para pedidos <b>inferiores a 10 km</b></span>
                     </div>
                 </div>
             </div>
